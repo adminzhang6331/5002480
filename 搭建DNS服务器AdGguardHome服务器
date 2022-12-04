@@ -1,0 +1,21 @@
+搭建DNS服务器AdGguardHome服务器
+
+1.	安装wget： yum install wget   #用centos7系统 
+
+2.	如果是Debian系统：apt-get install wget 
+
+3.	获取root权限： sudo -i 
+
+4.	下载AdGuardHome： wget https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.108.0-b.10/AdGuardHome_linux_amd64.tar.gz
+
+(1)	官方仓库链接:https://github.com/AdguardTeam/AdGuardHome/releases
+
+5.	解压AdGuardHome：  tar -zxvf AdGuardHome_linux_amd64.tar.gz 
+
+6.	进入AdGuardHome目录： cd AdGuardHome 
+
+7.	安装AdGuardHome: ./AdGuardHome -s install  #安装后，自动后台运行
+
+8.	登录:  http://xxx.xxx.xxx.xxx:3000 
+
+9.	主要适用于手机、电脑、软路由等等
